@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span #itemprice {
+  margin-left: 650px;
+}
+
+@media only screen and (max-width: 768px) {
+  span #itemprice {
+    margin-left: 100px;
+    font-size: 25px;
+  }
+}
+
+#titleget h5 {
+  font-size: 20px;
+  /* color: red; */
+}
+
+.Subtotal {
+  margin-right: 100px;
+  font-size: 5px;
+}
+
+.button {
+  margin-left: 120px;
+}
+
+.Cart-Container {
+  width: 70%;
+  height: 85%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #1687d933;
+}
+
+/* header */
+.Header {
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Heading {
+  font-size: 20px;
+  font-family: ‘Open Sans’;
+  font-weight: 700;
+  color: #2F3841;
+}
+
+/* cart item */
+
+/* .Cart-Items{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .image-box{
+    width: 15%;
+    text-align: center;
+   }
+   .about{
+    height: 100%;
+   }
+   .title{
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 32px;
+    font-family: ‘Open Sans’;
+    font-weight: 800;
+    color: #202020;
+   }
+   .subtitle{
+    line-height: 10px;
+    font-size: 18px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #909090;
+   }
+
+ */
+/* Images */
+.Cart-Items {
+  margin: auto;
+  width: 90%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-box {
+  width: 15%;
+  text-align: center;
+}
+
+.about {
+  height: 100%;
+}
+
+.title {
+  padding-top: 5px;
+  line-height: 10px;
+  font-size: 32px;
+  font-family: ‘Open Sans’;
+  font-weight: 800;
+  color: #202020;
+}
+
+.subtitle {
+  line-height: 10px;
+  font-size: 18px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #909090;
+}
+
+/* prices */
+
+.prices {
+  height: 100%;
+  margin-top: 80px;
+  font-size: 35px;
+}
+
+.amount {
+  padding-top: 20px;
+  font-size: 38px;
+  font-family: ‘Open Sans’;
+  font-weight: 800;
+  color: #202020;
+}
+
+
+
+/* checkout */
+hr {
+  width: 100px;
+  float: right;
+  margin-right: 5%;
+  margin-top: auto;
+}
+
+.checkout {
+  float: right;
+  margin-right: 5%;
+  width: 28%;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Subtotal {
+  font-size: 22px;
+  font-family: ‘Open Sans’;
+  font-weight: 700;
+  color: #202020;
+}
+
+.items {
+  font-size: 16px;
+  font-family: ‘Open Sans’;
+  font-weight: 500;
+  color: #909090;
+  line-height: 10px;
+}
+
+.total-amount {
+  font-size: 36px;
+  font-family: ‘Open Sans’;
+  font-weight: 900;
+  color: #202020;
+}
+
+.button {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #202020;
+}
